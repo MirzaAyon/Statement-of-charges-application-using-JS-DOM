@@ -58,6 +58,9 @@ addProductBtn.addEventListener('click', function () {
     infoTable.appendChild(tr);
 
     totalCalculation();
+    itemName.value = "";
+    itemPrice.value = "";
+    itemQuantity.value = "";
 
 })
 
